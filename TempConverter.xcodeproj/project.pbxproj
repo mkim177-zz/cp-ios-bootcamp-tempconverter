@@ -21,6 +21,8 @@
 		6BAC510C17FE73AC007471D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAC50ED17FE73AC007471D6 /* Foundation.framework */; };
 		6BAC511417FE73AC007471D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BAC511217FE73AC007471D6 /* InfoPlist.strings */; };
 		6BAC511717FE73AC007471D6 /* TempConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAC511617FE73AC007471D6 /* TempConverterTests.m */; };
+		6BAC512D17FE7567007471D6 /* TempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAC512B17FE7567007471D6 /* TempViewController.m */; };
+		6BAC512E17FE7567007471D6 /* TempViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BAC512C17FE7567007471D6 /* TempViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		6BAC511317FE73AC007471D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6BAC511517FE73AC007471D6 /* TempConverterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempConverterTests.h; sourceTree = "<group>"; };
 		6BAC511617FE73AC007471D6 /* TempConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempConverterTests.m; sourceTree = "<group>"; };
+		6BAC512A17FE7567007471D6 /* TempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempViewController.h; sourceTree = "<group>"; };
+		6BAC512B17FE7567007471D6 /* TempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempViewController.m; sourceTree = "<group>"; };
+		6BAC512C17FE7567007471D6 /* TempViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,9 @@
 				6BAC50FA17FE73AC007471D6 /* AppDelegate.h */,
 				6BAC50FB17FE73AC007471D6 /* AppDelegate.m */,
 				6BAC50F217FE73AC007471D6 /* Supporting Files */,
+				6BAC512A17FE7567007471D6 /* TempViewController.h */,
+				6BAC512B17FE7567007471D6 /* TempViewController.m */,
+				6BAC512C17FE7567007471D6 /* TempViewController.xib */,
 			);
 			path = TempConverter;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 				6BAC50FE17FE73AC007471D6 /* Default.png in Resources */,
 				6BAC510017FE73AC007471D6 /* Default@2x.png in Resources */,
 				6BAC510217FE73AC007471D6 /* Default-568h@2x.png in Resources */,
+				6BAC512E17FE7567007471D6 /* TempViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 			files = (
 				6BAC50F817FE73AC007471D6 /* main.m in Sources */,
 				6BAC50FC17FE73AC007471D6 /* AppDelegate.m in Sources */,
+				6BAC512D17FE7567007471D6 /* TempViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
